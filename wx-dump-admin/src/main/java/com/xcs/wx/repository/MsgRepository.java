@@ -1,6 +1,7 @@
 package com.xcs.wx.repository;
 
 import com.xcs.wx.domain.Msg;
+import com.xcs.wx.domain.dto.ChatRoomDTO;
 import com.xcs.wx.domain.vo.CountRecentMsgsVO;
 import com.xcs.wx.domain.vo.MsgTypeDistributionVO;
 import com.xcs.wx.domain.vo.TopContactsVO;
@@ -30,7 +31,7 @@ public interface MsgRepository {
      * @param talker 对话着
      * @return Msg
      */
-    List<Msg> exportMsg(String talker);
+    List<Msg> exportMsg(String talker,ChatRoomDTO chatRoomDTO);
 
     /**
      * 微信消息类型及其分布统计
