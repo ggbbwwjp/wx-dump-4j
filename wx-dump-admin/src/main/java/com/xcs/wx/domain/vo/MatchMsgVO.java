@@ -14,7 +14,7 @@ import lombok.Data;
  **/
 @Data
 @ContentStyle(horizontalAlignment = HorizontalAlignmentEnum.CENTER)
-public class ExportMsgVO {
+public class MatchMsgVO {
 
     /**
      * 消息服务器 ID

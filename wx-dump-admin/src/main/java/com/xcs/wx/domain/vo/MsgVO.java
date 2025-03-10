@@ -41,7 +41,7 @@ public class MsgVO {
      * 是否为发送者
      */
     private Integer isSender;
-
+    
     /**
      * 消息创建时间
      */
@@ -118,4 +118,5 @@ public class MsgVO {
      * 聊天人Id
      */
     private String wxId;
+
 }
